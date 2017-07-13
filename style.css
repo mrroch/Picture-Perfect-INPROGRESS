@@ -54,7 +54,7 @@ body {
 /* HERO */
 
 .hero {
-    background: url(images/hero.png);
+    background-image: url(images/hero.jpg);
     background-repeat: no-repeat;
     height: 951px;
     margin-top: -50px;
@@ -167,7 +167,7 @@ body {
     height: 254px;
 }
 
-.gallery i.fa {
+.gallery i.fa, .power i.fa {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
@@ -254,7 +254,6 @@ body {
 /* REASONS */
 
 .reasons {
-    width: 100vw;
     height: 536px;
     background-color: #82ca9c;
     position: relative;
@@ -419,7 +418,7 @@ footer p {
 }
 
 input[type=email] {
-    width: 400px;
+    width: 430px;
     height: 58px;
     border-radius: 2px;
     background-color: #f6f7fa;
