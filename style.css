@@ -136,35 +136,39 @@ body {
 
 .first {
     background-color: #f5989d;
+    height: 278px;
 }
 
 .second {
     background-color: #615f7d;
+    height: 278px;
 }
 
 .third {
     background-image: url(images/picture%203.jpg);
     background-repeat: no-repeat;
-    height: 254px;
+    height: 278px;
 }
 
 .four {
     background-color: #bd8cbf;
+    height: 278px;
 }
 
 .fith {
     background-image: url(images/picture%205.jpg); 
     background-repeat: no-repeat;
-    height: 254px;
+    height: 278px;
 }
 
 .six {
     background-color: #82ca9c;
+    height: 278px;
 }
 
 .seven {
     background-image: url(images/picture%207.png);
-    height: 254px;
+    height: 278px;
 }
 
 .gallery i.fa, .power i.fa {
@@ -322,7 +326,6 @@ body {
     width: 151px;
     height: 46px;
     border-radius: 3px;
-    border-color: #82ca9c;
     background-color: #82ca9c;
     color: #fff;
     font-size: 13px;
@@ -335,7 +338,6 @@ body {
 
 .shop button:hover {
     background-color: #75B58C;
-    border-color: #75B58C;
 }
 
 .shop span {
@@ -371,6 +373,10 @@ body {
 .legacy:hover, .mostPopular:hover {
     background-color: #fff;
     box-shadow: 10px 10px 75px #e1e1e1;
+}
+
+.legacy, .mostPopular {
+    padding: 25px 50px;;
 }
 
 /* FOTTER */
@@ -430,7 +436,6 @@ input[type=email] {
     width: 70px;
     height: 58px;
     background-color: #82ca9c;
-    border-color: #82ca9c;
     border-radius: 2px;
     border: none;
     cursor: pointer;
@@ -439,7 +444,6 @@ input[type=email] {
 
 .mail button:hover {
     background-color: #75B58C;
-    border-color: #75B58C;
 }
 
 .mail i.fa {
