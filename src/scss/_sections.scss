@@ -1,0 +1,280 @@
+$start_heading: #222626;
+$detail_heading: #67676D;
+$button_hover: #75B58C;
+$button: #82CA9C;
+$shop_background: #F6F7FA;
+$footer_background: #192431;
+$reason_background: #82CA9C;
+$gallery_one: #F5989D;
+$gallery_two: #615F7D;
+$gallery_four: #BD8CBF;
+$gallery_six: #82CA9C;
+
+/* ------------ 
+      HERO
+------------ */
+
+.hero {
+  background-image: url(../../img/hero.jpg);
+  background-repeat: no-repeat;
+  height: 951px;
+  position: relative;
+  &__heading {
+    font-size: $font-size--x-large;
+    font-weight: $weight_light;
+  }
+  &__slogan {
+    padding-top: 319px;
+    padding-left: 318px;
+  }
+}
+
+
+/* ------------ 
+     START
+   ------------ */
+
+.start {
+  height: 541px;
+  margin-bottom: 84px;
+  &__heading {
+    color: $start_heading;
+  }
+  &__text {
+    color: #959595;
+  }
+  &__column--right {
+    margin-top: 277px;
+  }
+  &__column--left {
+    margin-top: 113px;
+  }
+}
+
+
+/* ------------ 
+     GALLERY
+   ------------ */
+
+.gallery {
+  &__heading {
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 40px;
+  }
+  &__text {
+    padding: 0 40px 10px 40px;
+  }
+  &__text--icon {
+    padding-left: 40px;
+  }
+  &__icon {
+    margin-left: 15px;
+  }
+}
+
+.gallery {
+  height: 278px;
+  background-repeat: no-repeat;
+  &__one {
+    background-color: $gallery_one;
+  }
+  &__two {
+    background-color: $gallery_two;
+  }
+  &__three {
+    background-image: url(../../img/picture%203.jpg);
+  }
+  &__four {
+    background-color: $gallery_four;
+  }
+  &__five {
+    background-image: url(../../img/picture%205.jpg);
+  }
+  &__six {
+    background-color: $gallery_six;
+  }
+  &__seven {
+    background-image: url(../../img/picture%207.jpg);
+  }
+}
+
+
+/* ------------ 
+      DETAIL
+   ------------ */
+
+.detail {
+  position: relative;
+  &__heading {
+    color: $detail_heading;
+    margin-top: 97px;
+  }
+  &__heading--small {
+    color: $detail_heading;
+    margin-top: 68px;
+  }
+  &__text {
+    color: #959595;
+    margin-bottom: 159px;
+  }
+}
+
+
+/* ------------ 
+      POWER
+   ------------ */
+
+.power {
+  background: url(../../img/car.jpg);
+  background-repeat: no-repeat;
+  height: 874px;
+  &__heading {
+    font-size: $font-size--x-large;
+    font-weight: $weight-light;
+    margin-top: 250px;
+    margin-bottom: 30px;
+  }
+  &__icon {
+    margin-left: 15px;
+  }
+}
+
+
+/* ------------ 
+      REASON
+   ------------ */
+
+.reason {
+  height: 536px;
+  background-color: $reason_background;
+  position: relative;
+  &__heading {
+    margin-top: 124px;
+    margin-bottom: 60px;
+  }
+}
+
+
+/* ------------ 
+      SHOP
+   ------------ */
+
+.shop {
+  height: 620px;
+  position: relative;
+  background-color: $shop_background;
+  padding-top: 150px;
+  &__heading {
+    color: #2e3b4e;
+    font-size: $font-size__medium;
+    font-weight: $weight-light;
+    line-height: 40px;
+  }
+  &__text {
+    color: #8297a7;
+    font-size: $font-size__small;
+    font-weight: $weight_regular;
+    line-height: 25px;
+  }
+  &__button {
+    color: #FFF;
+    width: 151px;
+    height: 46px;
+    border-radius: 3px;
+    background-color: $button;
+    font-size: $font-size__x-small;
+    font-weight: $weight_bold;
+    line-height: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    &:hover {
+      background-color: $button_hover;
+    }
+  }
+  &__name {
+    border-radius: 5px;
+    background-color: #bd8cbf;
+    font-size: 11px;
+    font-weight: $weight_bold;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 6px 12px;
+  }
+  &__icon {
+    color: #c5c5c5;
+    margin-top: 21px;
+    margin-right: 16px;
+  }
+  &__column {
+    padding: 25px 50px;
+    &:hover {
+      background-color: #fff;
+      box-shadow: 10px 10px 75px #e1e1e1;
+    }
+  }
+}
+
+
+/* ------------ 
+      FOOTER
+   ------------ */
+
+.footer {
+  height: 608px;
+  background-color: $footer_background;
+}
+
+.contact {
+  color: $shop_background;
+  &__heading {
+    margin-top: 120px;
+  }
+}
+
+.columns {
+  &__heading {
+    margin-top: 73px;
+    margin-bottom: 29px;
+  }
+  &__text {
+    margin: 0;
+  }
+}
+
+.mail {
+  margin-left: 60px;
+  &__text {
+    color: #57697f;
+    font-size: 12px;
+    font-weight: $weight_regular;
+    line-height: 18px;
+  }
+  &__button {
+    width: 70px;
+    height: 58px;
+    background-color: $button;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    &:hover {
+      background-color: $button_hover;
+    }
+  }
+  &__icon {
+    font-size: 26px;
+    color: #fff;
+    background-color: $button;
+  }
+  &__input {
+    font-size: 20px;
+    width: 430px;
+    height: 58px;
+    border-radius: 2px;
+    background-color: $shop_background;
+    position: relative;
+    border: none;
+  }
+}

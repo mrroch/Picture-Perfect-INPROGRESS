@@ -1,0 +1,50 @@
+@charset 'utf-8';
+@import '_reset';
+@import '_mixins';
+@import '_fonts';
+@import '_sections';
+body {
+  margin: 0;
+  color: $body__text-color;
+}
+
+.container {
+  max-width: 1800px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'open_sans';
+}
+
+.aside__light {
+  @include aside__light;
+}
+
+.aside__dark {
+  @include aside__dark;
+}
+
+.text__xs--regular {
+  font-size: $font-size__x-small;
+  font-weight: $weight_regular;
+  line-height: $standard_line-height;
+}
+
+.text__small--regular {
+  font-size: $font-size__small;
+  font-weight: $weight_regular;
+  line-height: $standard_line-height;
+}
+
+.heading__large--light {
+  font-size: $font-size__large;
+  font-weight: $weight-light;
+  line-height: $standard_line-height;
+}
+
+.heading__xs--semibold {
+  font-size: $font-size__x-small;
+  font-weight: $weight_semibold;
+  line-height: $standard_line-height;
+}
